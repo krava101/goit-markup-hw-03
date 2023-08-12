@@ -1,0 +1,156 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+    background-color: #fff;
+}
+
+ul{
+    list-style: none;
+}
+
+a{
+    font-size: 12px;
+    line-height: 1.333;
+    letter-spacing: 0.04em;
+    text-decoration: none;
+    color: #2E2F42;
+}
+/* Header */
+.page-header{
+    background-color: #fff;  
+}
+
+.logo{
+    text-transform: uppercase;
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    color: #4D5AE5;
+}
+
+.nav-links{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #2E2F42;
+}
+
+.nav-links:hover,
+.nav-links:focus{
+    color: #404BBF;
+}
+
+.logo-part{
+    color: #2e2f42;
+}
+
+.contact-nav{
+    font-style: normal;
+}
+
+.contact-nav-links {
+    color: #434455;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+
+.contact-nav-links:hover,
+.contact-nav-links:focus {
+    color: #404BBF;
+}
+
+/* Main page */
+
+/* Section 1 */
+.first-section{
+    background-color: #2E2F42;
+}
+
+.page-title{
+    text-align: center;
+    color: #fff;
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 1.07;
+    letter-spacing: 0.02em
+}
+
+.section-header {
+    text-align: center;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: #2e2f42;
+}
+
+.button {
+    border: none;
+    background-color: #4D5AE5;
+    color: #fff;
+    font-weight: 500;
+    letter-spacing: 0.04em;
+    line-height: 1.5;
+}
+
+.button:hover,
+.button:focus {
+    background-color: #404BBF;
+    cursor: pointer;
+}
+
+/* Section 2 */
+
+.benefits{
+    background-color: #fff;
+}
+
+.card-header{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+}
+.text{
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+
+/* Section 3 */
+.team{
+    background-color: #F4F4FD;
+}
+
+.team ul li{
+    text-align: center;
+    background-color: #fff;
+}
+
+/* Section 4 */
+.portfolio{
+    background-color: #fff;
+}
+/* Footer */
+.page-footer{
+    background-color: #2E2F42;
+}
+
+.footer-logo-part{
+   color: #f4f4fd;
+}
+
+.page-footer p{
+    color: #F4F4FD;
+}

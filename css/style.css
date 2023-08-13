@@ -47,12 +47,12 @@ img{
 /* Header */
 .page-header{
     background-color: #fff;
-    border-bottom: 1px solid #E7E9FC;  
+    border-bottom: 1px solid #E7E9FC;
+    padding: 24px 0;  
 }
 
 .page-header .container{
     display: flex;
-    padding: 24px 0;
     justify-content: space-between;
 }
 
@@ -180,10 +180,18 @@ img{
     padding: 120px 0;
 }
 
-.visually-hidden{
-    position: fixed;
-    transform: scale(0);
-}
+.visually-hidden {
+        position: absolute;
+        width: 1px;
+        height: 1px;
+        margin: -1px;
+        border: 0;
+        padding: 0;
+        white-space: nowrap;
+        clip-path: inset(100%);
+        clip: rect(0 0 0 0);
+        overflow: hidden;
+    }
 
 .benefits-list{
     display: flex;

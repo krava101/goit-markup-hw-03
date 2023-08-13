@@ -181,7 +181,8 @@ img{
 }
 
 .visually-hidden{
-    display: none;
+    position: fixed;
+    transform: scale(0);
 }
 
 .benefits-list{

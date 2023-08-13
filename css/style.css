@@ -10,9 +10,9 @@ body{
 }
 
 .container{
-    width: 1128px;
+    width: 1158px;
+    padding: 0 15px;
     margin: 0 auto;
-    padding: 120px 0;
 }
 
 h1,h2,h3,h4,h5,h6, p{
@@ -38,8 +38,6 @@ img{
     max-width: 100%;
 }
 .card-header{
-    margin-bottom: 8px;
-    margin-top: 32px;
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
@@ -61,22 +59,24 @@ img{
 .page-nav{
     display: flex;
     justify-content: space-between;
+    align-items: center;
     gap: 76px;
 }
 
-.contact-nav ul{
+.addres-list{
     display: flex;
     gap: 40px;
     font-style: normal;
 }
 
-.page-nav ul{
+.header-list{
     display: flex;
     justify-content: space-between;
     gap: 40px;
 }
 
 .logo{
+    display: inline-block;
     text-transform: uppercase;
     font-family: "Raleway", sans-serif;
     font-weight: 700;
@@ -84,6 +84,7 @@ img{
     line-height: 1.17;
     letter-spacing: 0.03em;
     color: #4D5AE5;
+    margin-right: 76px
 }
 
 .nav-links{
@@ -92,6 +93,7 @@ img{
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #2E2F42;
+    padding: 24px 0;
 }
 
 .nav-links:hover,
@@ -120,14 +122,14 @@ img{
 /* Hero */
 .hero{
     background-color: #2E2F42;
+    padding: 188px 0;
 }
 
 .hero .container{
     display: flex;
     flex-direction: column;
     align-items: center;
-    max-width: 496px;
-    padding: 188px 0;
+    padding: 0;
 }
 
 .page-title{
@@ -137,7 +139,8 @@ img{
     font-weight: 700;
     font-size: 56px;
     line-height: 1.07;
-    letter-spacing: 0.02em
+    letter-spacing: 0.02em;
+    max-width: 496px;
 }
 
 .section-header {
@@ -161,21 +164,23 @@ img{
     padding: 16px 32px;
     margin-top: 48px;
     border-radius: 4px;
+    min-width: 169px;
+    cursor: pointer;
 }
 
 .button:hover,
 .button:focus {
     background-color: #404BBF;
-    cursor: pointer;
 }
 
-/* Section 2 */
+/* Section 1 */
 
 .benefits{
     background-color: #fff;
+    padding: 120px 0;
 }
 
-.benefits .section-header{
+.visually-hidden{
     display: none;
 }
 
@@ -184,7 +189,7 @@ img{
     gap: 24px;
 }
 
-.benefits-list li{
+.benefits-card{
     flex-basis: 264px;
 }
 
@@ -198,9 +203,10 @@ img{
     letter-spacing: 0.02em;
 }
 
-/* Section 3 */
+/* Section 2 */
 .team{
     background-color: #F4F4FD;
+    padding: 120px 0;
 }
 
 .team-list li{
@@ -214,40 +220,58 @@ img{
 }
 
 .team-card{
-    padding-bottom: 32px;
     border-radius: 0px 0px 4px 4px;
 }
 
-/* Section 4 */
+.team .card-header{
+    text-align: center;
+    margin-bottom: 8px;
+}
+
+.team .text{
+    text-align: center;
+}
+
+.team-card-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 32px 0;
+}
+
+/* Section 3 */
 .portfolio{
     background-color: #fff;
+    padding: 120px 0;
 }
 
 .portfolio-list{
     display: flex;
     flex-wrap: wrap;
-    column-gap: 20px;
+    column-gap: 24px;
     row-gap: 48px;
 }
 
 .portfolio-card{
     width: calc((100% - 48px) / 3);
-    border: 1px solid #E7E9FC;
     padding-bottom: 32px;
 }
 
-.portfolio .card-header,
-.portfolio .card-text{
-    margin-left: 16px;
+.portfolio-card-info{
+    padding: 32px 16px;
+    border: 1px solid #e7e9fc;
+    border-top: none;
+}
+
+.portfolio .card-header{
+    margin-bottom: 8px;
 }
 
 /* Footer */
 .page-footer{
     background-color: #2E2F42;
-}
-
-.page-footer .container{
-    padding: 100px 0;
+    padding: 100px 0
 }
 
 .footer-logo-part{
@@ -257,5 +281,8 @@ img{
 .page-footer .text{
     color: #F4F4FD;
     width: 264px;
-    margin-top: 16px;
+}
+
+.page-footer .logo{
+    margin-bottom: 16px;
 }

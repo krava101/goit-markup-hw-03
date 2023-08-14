@@ -60,7 +60,6 @@ img{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    gap: 76px;
 }
 
 .addres-list{
@@ -264,7 +263,6 @@ img{
 
 .portfolio-card{
     width: calc((100% - 48px) / 3);
-    padding-bottom: 32px;
 }
 
 .portfolio-card-info{
@@ -294,4 +292,5 @@ img{
 
 .page-footer .logo{
     margin-bottom: 16px;
+    margin-right: 0;
 }

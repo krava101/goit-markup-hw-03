@@ -52,12 +52,6 @@ address {
   margin: 0 auto;
 }
 
-.sr-only{
-  position: absolute;
-  pointer-events: none;
-  opacity: 0;
-}
-
 .logo {
   font-size: 18px;
   font-weight: 700;
@@ -96,4 +90,13 @@ address {
   font-size: 12px;
   line-height: 1.17;
   letter-spacing: 0.04em;
+}
+
+
+.sr-only{
+  position: absolute;
+  pointer-events: none;
+  opacity: 0;
+  margin: 0;
+  padding: 0;
 }

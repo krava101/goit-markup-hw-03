@@ -1,0 +1,22 @@
+.hero {
+  background-color: var(--navy-blue);
+}
+
+.title {
+  color: var(--white);
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 1.07;
+  letter-spacing: 0.02em;
+  text-align: center;
+}
+
+.hero-btn {
+  background-color: var(--iris);
+  color: var(--white);
+}
+
+.hero-btn:hover,
+.hero-btn:focus {
+  background-color: var(--ocean);
+}

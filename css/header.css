@@ -1,0 +1,21 @@
+.header a {
+  text-decoration: none;
+  color: var(--navy-blue);
+}
+
+.header a:hover, .header a:focus{
+  color: var(--ocean);
+}
+
+.logo span {
+  color: var(--iris);
+}
+
+.header-nav-list a {
+  font-weight: 500;
+}
+
+.header-address-list a {
+  color: var(--slate);
+  font-style: normal;
+}

@@ -1,0 +1,75 @@
+:root {
+  --iris: #4d5ae5;
+  --ocean: #404bbf;
+  --slate: #434455;
+  --light-slate: #8e8f99;
+  --navy-blue: #2e2f42;
+  --white: #fff;
+  --cloude: #f4f4fd;
+  --gray: #2e2f42;
+  --dairy: #fcfcfc;
+  --navy-blue-modal: #2e2f42;
+  --cornflower: #e7e9fc;
+  --green: #31d0aa;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--slate);
+  background-color: var(--white);
+}
+
+ul {
+  list-style: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+address {
+  font-style: normal;
+}
+
+.logo {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.33;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+.header-medium {
+  color: var(--navy-blue);
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-align: center;
+}
+
+.header-small {
+  color: var(--navy-blue);
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  text-align: center;
+}
+
+.btn-txt {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+}
+
+.txt-small {
+  font-size: 12px;
+  line-height: 1.17;
+  letter-spacing: 0.04em;
+}

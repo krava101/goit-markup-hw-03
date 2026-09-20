@@ -3,13 +3,13 @@
   background-color: var(--white);
 }
 
-.features .header-medium{
-  display: none;
-}
-
 .features-list{
   display: flex;
   gap: 24px;
+}
+
+.features-list li{
+  flex-basis: calc(100% - 24px * 3);
 }
 
 .features .header-small{

@@ -46,9 +46,16 @@ address {
 }
 
 .container{
-  width: 1158px;
+  max-width: 1158px;
+  width: 100%;
   padding: 0 15px;
   margin: 0 auto;
+}
+
+.sr-only{
+  position: absolute;
+  pointer-events: none;
+  opacity: 0;
 }
 
 .logo {

@@ -1,6 +1,33 @@
+.header{
+  background-color: var(--white);
+  border-bottom: 1px solid var(--cornflower);
+}
+
+.header .container{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header nav{
+  display: flex;
+}
+
+.header .logo{
+  margin-right: 76px;
+  width: 115px;
+}
+
+.header-nav-list, .header-address-list{
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+
 .header a {
   text-decoration: none;
   color: var(--navy-blue);
+  padding: 24px 0;
 }
 
 .header a:hover, .header a:focus{
